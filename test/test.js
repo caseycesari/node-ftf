@@ -63,7 +63,7 @@ describe("ftf", function() {
   describe("#committee", function () {
     it("returns the committee object for the specified slug", function (done) {
 
-      ftf.station('priorities-usa-action', function(resp){
+      ftf.committee('priorities-usa-action', function(resp){
         expect(resp.committee.name).to.be('PRIORITIES USA ACTION');
         expect(resp.committee.slug).to.be('priorities-usa-action');
         expect(resp.committee.fec_id).to.be('C00495861');
