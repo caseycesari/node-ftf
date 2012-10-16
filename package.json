@@ -1,0 +1,24 @@
+{
+  "name": "ftf",
+  "description": "A thin wrapper for ProPublica's Free The Files API",
+  "author": "Casey Thomas <c@cpt.ph>",
+  "version": "0.0.1",
+  "main": "./ftf",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/caseypt/node-ftf.git"
+  },
+  "dependencies": {
+    "request": ">=2.11.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
